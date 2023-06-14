@@ -1,6 +1,6 @@
 # gchat2alpaca
 
-A Node.js script to transform Google Chat data from Google Takeout into a format suitable for training a Language Learning Model (LLM).
+A Node.js script to transform Google Chat data from Google Takeout into a format suitable for training/finetuning an LLM.
 
 ## Usage
 
@@ -33,6 +33,11 @@ The script will then generate a JSON file called `output.json` in the same direc
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Notes
+
+- This outputs json, some small final steps likely needed to get it ready for use.
+- I have no clue if using chat data this way will work as I want, teaching an LLM to talk like me. This is just a first step! 
 
 ## License
 
